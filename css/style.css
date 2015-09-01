@@ -1,0 +1,477 @@
+@import url(http://fonts.googleapis.com/css?family=Quando);
+
+body {
+	font-family: 'Quando', serif;
+	font-size: 20px;
+	background-color: white;
+}
+
+/*header{
+background-color: #ffffff;
+background-image:url("images/sk_Banner2.jpg");*/
+
+/*	background-image: url("images/sk_Banner2.jpg");
+	border: solid;
+	border: 30px solid #000000;
+}*/
+
+.top {
+	background-image: url("../images/sk_Banner2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 180px;
+	float:right;
+	display: inline-block;
+
+}
+
+/*.Firstimage {
+	background-image: url("../images/ravenclaw.jpg");
+	background-repeat: no-repeat;
+	background-size: 
+	width: 100%;
+	height:180px;
+	float:right;
+	display: inline-block;
+}
+*/
+.nav {
+	text-align: center;
+	display: block;
+	padding-top: 100px;
+
+
+
+}​
+
+
+.fadein { 
+	width: 100%;
+	margin: 0 auto;
+	/*position: relative;*/
+	display: block;
+}
+
+.fadein img {  
+	width: 100%; 
+	position: absolute;
+	/*left: 20%; 
+	top: 225px; */
+	background: coral;
+	margin: 0 auto;
+	padding-left: 15%;
+	padding-right: 15%;
+
+}
+
+#top a {
+    text-decoration: none;
+	width: 100px;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+#top a:link {
+    text-decoration: none;
+	width: 100px;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	border: black
+}
+
+#top a:visited {
+    text-decoration: none;
+	width: 100px;
+	display: inline-block;
+	background-color: black;
+	color: white;
+}
+
+#top a:hover {
+    text-decoration: underline;
+	width: 100px;
+	display: inline-block;
+	background-color: black;
+	color: white;
+}
+
+#top a:active {
+    text-decoration: underline;
+	width: 100px;
+	display: inline-block;
+	background-color: black;
+	color: white;
+}
+
+
+#foot a {
+    text-decoration: none;
+	width: 100px;
+	display: inline-block;
+	color: white;
+	text-align: center;
+}
+#foot a:link {
+    text-decoration: none;
+	width: 100px;
+	display: inline-block;
+	color: white;
+	border: black
+}
+
+#foot a:visited {
+    text-decoration: none;
+	width: 100px;
+	display: inline-block;
+	color: white;
+}
+
+#foot a:hover {
+    text-decoration: underline;
+	width: 100px;
+	display: inline-block;
+	color: white;
+}
+
+#foot a:active {
+    text-decoration: underline;
+	width: 100px;
+	display: inline-block;
+	color: white;
+}
+
+.firstrow {
+padding-top: 20px;
+display:inline-block;
+height: auto;
+text-align: center;
+clear: both;
+ padding-top: 20px;
+ display: inline-block;
+ margin-left: calc((100% - 1200px)/2);
+}
+
+a.sell, .sell:hover {
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	background-color: initial;
+
+}
+
+#raven-1 {
+	background: url("../images/ravenclaw.jpg") ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 300px;
+	height: 300px;
+	margin:0 auto;
+	float: left;
+	
+}
+
+#raven-1 p {
+	height: 100%;
+	font-size: 2em;
+	margin: 0px;
+	
+}
+#raven-price-1 {
+	background: gray;
+	color: white;
+	text-align: left;
+	opacity: .5;
+	display: none;
+	text-opacity:.20;
+
+}
+#raven-1:hover #raven-price-1 {
+	display: block;
+	height: 100%;
+
+}
+
+#pink-1 {
+	background: url("../images/orange.jpg");
+	background-size: 100%;
+	width:300px;
+	height: 300px;
+	float: left;
+	
+	
+}
+
+#pink-1 p {
+	height: 100%;
+	font-size: 2em;
+	margin:0px;
+}
+
+#pink-price-1 {
+	background: gray;
+	color: white;
+	text-align: left;
+	opacity: .5;
+	display: none;
+	text-opacity:.20;
+}
+
+#pink-1:hover #pink-price-1 {
+	display: block;
+	height: 100%;
+}
+
+#star-1 {
+	background: url("../images/starwars.jpg");
+	background-size: 100%;
+	width:300px;
+	height: 300px;
+	margin: 0, auto;
+	float: left;
+
+}
+#star-1 p {
+	height: 100%;
+	font-size: 2em;
+	margin:0px;
+}
+
+#star-price-1 {
+	background: gray;
+	color: white;
+	text-align: left;
+	opacity: .5;
+	display: none;
+	text-opacity:.20;
+}
+
+#star-1:hover #star-price-1 {
+	display: block;
+	height: 100%;
+}
+
+#baby-1 {
+	background: url("../images/baby.jpg");
+	background-size: 100%;
+	width:300px;
+	height: 300px;
+	margin: 0, auto;
+	float: left;
+
+}
+#baby-1 p {
+	height: 100%;
+	font-size: 2em;
+	margin:2px;
+	
+}
+
+#baby-price-1 {
+	background: gray;
+	color: white;
+	text-align: left;
+	opacity: .5;
+	display: none;
+	text-opacity:.20;
+
+}
+
+#baby-1:hover #baby-price-1 {
+	display: block;
+	height: 100%;
+}
+
+
+#scarf-1 {
+	background: url("../images/scarf.jpg");
+	background-size: 100%;
+	width:300px;
+	height: 300px;
+	margin: 0, auto;
+	float: left;
+
+}
+#scarf-1 p {
+	height: 100%;
+	font-size: 2em;
+	margin:2px;
+	
+}
+
+#scarf-price-1 {
+	background: gray;
+	color: white;
+	text-align: left;
+	opacity: .5;
+	display: none;
+	text-opacity:.20;
+
+}
+
+#scarf-1:hover #scarf-price-1 {
+	display: block;
+	height: 100%;
+}
+#hood-1 {
+	background: url("../images/hoodie.jpg");
+	background-size: 100%;
+	width:300px;
+	height: 300px;
+	margin: 0, auto;
+	float: left;
+
+}
+#hood-1 p {
+	height: 100%;
+	font-size: 2em;
+	margin:2px;
+	
+}
+
+#hood-price-1 {
+	background: gray;
+	color: white;
+	text-align: left;
+	opacity: .5;
+	display: none;
+	text-opacity:.20;
+
+}
+
+#hood-1:hover #hood-price-1 {
+	display: block;
+	height: 100%;
+
+}
+#bowscarf-1 {
+	background: url("../images/bowscarf.jpg");
+	background-size: 100%;
+	width:300px;
+	height: 300px;
+	margin: 0, auto;
+	float: left;
+
+}
+#bowscarf-1 p {
+	height: 100%;
+	font-size: 2em;
+	margin:2px;
+	
+}
+
+#bowscarf-price-1 {
+	background: gray;
+	color: white;
+	text-align: left;
+	opacity: .5;
+	display: none;
+	text-opacity:.20;
+}
+#bowscarf-1:hover #bowscarf-price-1 {
+	display: block;
+	height: 100%;
+}
+
+#handwarmer-1:hover #handwarmer-price-1 {
+	display: block;
+	height: 100%;
+}
+#handwarmer-1 {
+	background: url("../images/handwarmer.jpg");
+	background-size: 100%;
+	width:300px;
+	height: 300px;
+	margin: 0, auto;
+	float: left;
+	display: inline-block;
+
+}
+#handwarmer-1 p {
+	height: 100%;
+	font-size: 2em;
+	margin:2px;
+	
+}
+
+#handwarmer-price-1 {
+	background: gray;
+	color: white;
+	text-align: left;
+	opacity: .5;
+	display: none;
+	text-opacity:.20;
+
+}
+
+#handwarmer-1:hover #handwarmer-price-1 {
+	display: block;
+	height: 100%;
+}
+
+
+/*.secondrow {
+	padding: 25px;
+	display:inline-block;
+	width:100%;
+	height: auto;
+	text-align: center;
+
+}
+.pink {
+	width: 32%;
+	height: auto;
+	display:inline-block;
+}
+
+.star {
+	width: 32%;
+	height: auto;
+	display:inline-block;
+}
+
+.hood {
+	width: 32%;
+	height: auto;
+	display:inline-block;
+}*/
+
+
+
+footer{
+
+	background-color: white;
+	background: #C84127;
+	border: 75px;
+	text-align: center;
+	color:#3D2117 ;
+	text-decoration: none;
+	padding: 10%;
+	
+	
+}
+
+article{
+	background-color: #67C5C2;
+	color:#3D2117;
+	padding: 10%;
+	text-align: left;
+
+}
+
+#profile {
+	background: url("../images/Shaunapic.jpg");
+	background-size: 100%;
+	width:300px;
+	height: 300px;
+	margin: 0, auto;
+	float: right;
+	background-repeat: no-repeat;
+}
+
+#form-row {
+	float: left;
+
+}
